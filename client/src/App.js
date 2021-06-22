@@ -1,5 +1,4 @@
 import './App.css';
-import { useState } from 'react';
 import { Route } from 'react-router-dom';
 import Todo from './components/Todo';
 import SingleTodo from './components/SingleTodo';
