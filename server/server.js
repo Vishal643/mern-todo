@@ -1,5 +1,7 @@
 const express = require('express');
 const cors = require('cors');
+require('dotenv').config();
+
 const dbConnect = require('./db/db');
 const { readdirSync } = require('fs');
 

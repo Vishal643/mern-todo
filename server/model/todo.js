@@ -6,14 +6,34 @@ const Todo = mongoose.Schema(
 			type: String,
 			required: true,
 		},
-		description:{
-			type : String,
-			required : true
+		description: {
+			type: String,
+			required: true,
 		},
 		status: {
 			type: Boolean,
 			default: false,
 		},
+		subTodos: [
+			{
+				title: {
+					type: String,
+					required: true,
+				},
+				description: {
+					type: String,
+					required: true,
+				},
+				status: {
+					type: Boolean,
+					default: false,
+				},
+
+				allSubtodos: [],
+				inProgressTodo: [],
+				completedTodo: [],
+			},
+		],
 	},
 	{ timestamps: true, versionKey: false },
 );
