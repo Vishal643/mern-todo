@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Code+Pro:wght@300&family=Stint+Ultra+Condensed&display=swap');
+
+.card{
+    border: 1px solid rgba(67, 231, 231, 0.726);
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px inherit;
+}
+
+.titleBtn{
+    color: palevioletred;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-family: 'Source Code Pro', monospace;
+
+    
+}
+.card:hover{
+   transform: scale(1.1);
+   animation: ease-in;
+   animation-duration: 0.2;
+   cursor: pointer;
+    /* box-shadow: 10px 1px 1px 10px white; */
+    
+}
+
+.descBtn{
+    color: rgba(15, 154, 247, 0.979);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.statusBtn{
+    color: blue;
+    margin-left: 15px;
+   
+}
+.editBtn{
+    width: 50px;
+    height: 40px;
+}
+.deleteBtn{
+    width: 50px;
+    height: 40px;
+}
+
+.backBtn button{
+    width: fit-content;
+    height: 50px;
+    background-color: rgb(248, 63, 177);
+    color: white;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-bottom: 5px;
+    border: 3px solid rgb(0, 225, 255);
+    outline: none;
+    cursor: pointer;
+}
+
+
+h2{
+    margin-top: -50px;
+    position:absolute;
+    background:linear-gradient(to top right, #ff99ff 0%, #cc33ff 64%);
+    color: ivory;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+

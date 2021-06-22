@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    background: url("https://i.pinimg.com/originals/b9/c8/f8/b9c8f893c9a782033a01f47e0c0b1d6e.jpg");
+    background-repeat: no-repeat;
+}
+.header{
+    color: white;
+    font-size: 55px;
+    font-family: 'Aladin', cursive;
+}
+.cardcontainer{
+    border: 1px solid white;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    /* box-shadow: 2px 5px 5px white; */
+}
+.cardcontainer input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;    
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+}
+.cardcontainer input:nth-child(1)
+{
+    margin-top: -30px;
+}
+input:focus{
+    outline: none;
+}
+
+.cardcontainer button{
+    width: fit-content;
+    height: 50px;
+    background-color: rgb(248, 63, 177);
+    color: white;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-bottom: 5px;
+    border: 3px solid rgb(0, 225, 255);
+    cursor: pointer;
+    outline: none;
+}
+.showtodocontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.loader{
+    display: block;
+    margin: 0 auto;
+    border-color: red;
+    size: 100;
+}
